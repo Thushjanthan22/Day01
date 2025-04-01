@@ -1,0 +1,10 @@
+A = [8,-6,2;-6,7,-4;2,-4,3];
+A
+
+Minor_matrix11 = A(2:3,[2:2,3:3])
+Minor_matrix12 = A(2:3,[1:1,3:3])
+Minor_matrix13 = A(2:3,[1:1,2:2])
+
+a = det
+Matrix= 8*Minor_matrix11 - 6*Minor_matrix12 + 2*Minor_matrix13
+Determinat = det(Matrix)
